@@ -1,0 +1,151 @@
+.header
+{
+    overflow: hidden;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 1700px 100px;    
+    border-radius: 100px;
+}
+
+
+.header a
+{
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 30px 100px;
+  text-decoration: none;
+  font-size: 250%; 
+  line-height: 12px;
+  border-radius: 100px;
+}
+
+.headerRIGHT 
+{
+  float: right;
+}
+
+.header a:hover
+{
+  background-color: red;
+  color: black;
+}
+
+.h1first
+{
+    position: relative;
+    text-align: center;
+    margin-top: 37%;
+    color: cornflowerblue;
+    font-size: 60px;
+}
+
+h1
+{
+    position: relative;
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 60px;
+}
+p1
+{
+    font-size: 30px;
+}
+between
+{
+    position: absolute;
+    top: 79.4%;
+    width: 98%;
+    height: 7%;
+    opacity: 0.4;
+    background-color: black;
+}
+between1
+{
+    position:inherit;
+    background-color: black;
+
+}
+Box1
+{
+    background-image: url("/pic/304cefbf8e08d4e7870109bb0cf20af0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    width: 24%;
+    height: 0%;
+    border: 40px solid grey;
+    position: absolute;
+    margin: 1%;
+}
+.boxp
+{
+    position: absolute;
+    font-size: 200%;
+    color:gold;
+    top:0;
+    left:5%;
+    
+}
+
+Box2
+{
+    background-image: url("/pic/wallpaper2you_55825.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10%;
+    width: 24%;
+    height: 0%;
+    border: 40px solid grey;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 1%
+}
+
+
+
+
+
+/*slideshow*/
+backgroundslid
+{
+    background-image: url("/pic/backimage.jpg");
+    position: absolute;
+    top: 9.5%;
+    width: 98%;
+    height: 70%;
+    border-radius: 200px;
+
+}
+.scrollimg
+{
+    position: absolute;
+    top: 9.5%;
+    width: 98%;
+    height: 70%;
+    border-radius: 200px;
+    opacity: 0.7;
+}
+.slideshow-container{display: none;}
+.myslides{display: none;}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.dot {
+    position: relative;
+    top:650px;
+    right: 90px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.1s ease;
+    
+    
+}

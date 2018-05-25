@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <title>GamBro</title>
+    <meta charset="utf-8">
+   <link rel="stylesheet" href="css/HPS.css">
+    
+    <head> 
+       
+        <div class = "header" >
+        
+            <a href="#news">News </a>
+            
+            <a href="#Market"> Market </a>
+           
+            <div class="headerRIGHT">
+                
+                <a href="#about us" > About us </a>
+            
+                <a href="#contact us" > Contact us </a>
+           
+            </div> 
+            
+        </div>
+   
+    </head>
+    
+
+    <body>
+ 
+        <div>
+       
+            <backgroundslid></backgroundslid>
+            
+            <div class="mySlides fade">
+       
+            <img class="scrollimg"     src="pic/304cefbf8e08d4e7870109bb0cf20af0.jpg">
+            
+            </div>
+       
+            
+            <div class="mySlides fade">
+        <img class="scrollimg"     src="pic/f190ef1c41595ad20eafb36313a0f395.jpg">
+        </div>
+        
+
+            <div >
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+ <span class="dot"></span>
+</div>
+            
+            
+            <script>
+var slideIndex = 1;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); 
+}
+</script>
+
+        </div> 
+       
+        
+        <between></between>
+       
+        
+        <div class="h1first">
+       
+            <h1>Welcome to GAMBRO</h1>
+            <p1>hello in here we are helping gamers to know each other and make them know the latest news of the games , it also helps in telling them about the best games for them . </p1>
+            
+            
+            
+        </div>
+        
+       <between1></between1> 
+        
+        <div>
+        
+            <h1>Games</h1>
+            
+            <div>
+                
+                <box1>
+                   
+                    <div>
+                   
+ <p class="boxp"> play and fight <br> become the <br> Driver !!!!!</p>
+                        
+
+                    </div> 
+
+                </box1>
+                <box2><p class="boxp"> See the world from <br> diffrent view get<br>  your gun and fight </p></box2>
+                
+                
+            </div>
+            
+        </div>
+        
+        
+    </body>
+
+
+        
+
+</html>
